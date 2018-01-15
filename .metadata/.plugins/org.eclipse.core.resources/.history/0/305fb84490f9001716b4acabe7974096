@@ -1,0 +1,9 @@
+
+public class Person {
+
+	public String name = null;
+		// TODO 自動生成されたメソッド・スタブ
+
+		public int age = 0;
+
+}
