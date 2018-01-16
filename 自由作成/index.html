@@ -1,105 +1,136 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" eml:lang="ja" lang="ja">
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ログイン画面</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1">
-    <meta name="format-detection" content="telephone=no" />
-    <link rel="stylesheet" href="style.css">
-    <!--[if lt IE 9]>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ログイン画面</title>
+<meta name="viewport" content="width=device-width, userscalable=no, initial-scale=1, maximun-scale=1">
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" href="style.css">
+<!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-    <script src="js/respond.min.js"></script>
-    <script type="text/javascript">
-      <!--
-          funtion nextFrame(object, targetName, maxLength){
-              if(Object.value.length >= maxLength){
-                  object.form.elements[targetName].focus();
-              }
-          }
+<script src="js/respond.min.js"></script>
+<script type="text/javascript">
+    <!--
+        funtion nextFrame(object, targetName, maxLength){
+          if(Object.value.length >= maxLength){
+               object.form.elements[targetName].focus();
+            }
+        }
         // -->
-    </script>
-    </head>
+</script>
+</head>
     
-    <body>
+<body>
     
-        <div id="wrapper">
-            <header id="header">
-                <div class="inner">
-                    <h1 class="logo">
-                        <a href="./mem_myp"><img src="img/logo/logo2x.png" alt=""/></a>
-                    </h1>
-                </div>
-            </header>
+    <div id="wrapper">
+          <header id="header">
+             <div class="inner">
+                 <h1 class="logo">
+                   <a href="./mem_myp"><img src="test/logo2x.png" alt=""/></a>
+                 </h1>
+             </div>
+         </header>
             
-        <div id="contents" class="cf">
+　　 <div id="contents" class="cf">
             
-            <article id="main">
+     <article id="main">
                 
-                 <section id="undercolumn">
+         <section id="undercolumn">
                     
-                <h2 class="title"><img src="img/login.png" width="17" height="15">マイページログイン</h2>
+        　　<h2 class="title"><img src="test/login.png" width="17" height="15">マイページログイン</h2>
                         
-                <div class="inner">
+            <div class="inner">
                         
-                     <form method="post" action="mem_login.php">
+            　<form method="post" action="mem_login.php">
                             
-                        <input type="hidden" name="hid_login" value="ON">
+                <input type="hidden" name="hid_login" value="ON">
                                 
-                        <div class="login_area">
+                 <div class="login_area">
                                 
-                             <div class="loginareaBox table">
+                    <div class="loginareaBox table">
                                     
-                                  <ul class="tbody">
-                                        
-                                     <li class="tr">
+                     <ul class="tbody">
+                                       
+                        <li class="tr">
                                             
-                                        <div class="th2">カード番号(半角数字16桁)</div>
-                                                <div>
-                                        <input type="tel" style="ime-mode: disabled;" name="CUSTNUM01" maxlength="4" onKeyUp="nextFrame(this, 'CUSTNUM02', 4)" value=""/>-
-                                        <input type="tel" style="ime-mode: disabled;" name="CUSTNUM02" maxlength="4" onKeyUp="nextFrame(this, 'CUSTNUM03', 4)" value=""/>-
-                                        <input type="tel" style="ime-mode: disabled;" name="CUSTNUM03" maxlength="4" onKeyUp="nextFrame(this, 'CUSTNUM04, 4)" value=""/>-
-                                         <input type="tel" style="ime-mode: disabled;" name="CUSTNUM04" maxlength="4" value="" >
-                                        </div>
-                                     </li>
+                        <div class="th2">カード番号(半角数字16桁)</div>
+                          <div>
+                            <input type="tel" style="ime-mode: disabled;" name="CUSTNUM01" maxlength="4" onKeyUp="nextFrame(this, 'CUSTNUM02', 4)" value=""/>-
+                            <input type="tel" style="ime-mode: disabled;" name="CUSTNUM02" maxlength="4" onKeyUp="nextFrame(this, 'CUSTNUM03', 4)" value=""/>-
+                             <input type="tel" style="ime-mode: disabled;" name="CUSTNUM03" maxlength="4" onKeyUp="nextFrame(this, 'CUSTNUM04, 4)" value=""/>-
+                             <input type="tel" style="ime-mode: disabled;" name="CUSTNUM04" maxlength="4" value="" >
+                         </div>
+                    </li>
                                             
-                                     <li class="tr">
-                                         <div class="th2">パスワード</div>
-                                         <div>
-                                             <input maxlength="20" placeholder="" type="password" value="" name="PASSWORD">
-                                             <br>
-                                             <span class="attention">※会員未登録、退会済みの方はPIN番号（半角数字6桁）をご入力ください。<br>
-                                             PIN番号はドトールバリューカードの裏面右隅に記載されております。<br>
-                                             スクラッチを削っていただくと確認できます。
-                                             </span>
+                        <li class="tr">
+                            <div class="th2">パスワード</div>
+                            <div>
+                            <input maxlength="20" placeholder="" type="password" value="" name="PASSWORD">
+                            <br>
+                            <span class="attention">※会員未登録、退会済みの方はPIN番号（半角数字6桁）をご入力ください。<br>
+                        　　 PIN番号はドトールバリューカードの裏面右隅に記載されております。<br>
+                            スクラッチを削っていただくと確認できます。
+                            </span>
                                                     
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+                             </div>
+                         </li>
+                    </ul>
+                </div>
                             
-                            <div class="center" style="margin-bottom: 10px;">
-                            <label for="CHECKOMIT">
-                                <input type="checkbox" name="easylogin" id="CHECKOMIT" value="1">次回からカード番号の入力を省略
-                                </label>
-                            </div>
+                <div class="center" style="margin-bottom: 10px;">
+                <label for="CHECKOMIT">
+                <input type="checkbox" name="easylogin" id="CHECKOMIT" value="1">次回からカード番号の入力を省略
+                </label>
+                </div>
                             
-                            <div class="inputbox">
-                             <div class="btn_area">
-                                <p class="button02">
-                                 <button type="submit"><span>ログイン</span></button>
-                                 </p>
-                                </div>
-                            </div>
-                                </div>
-                            </form>
-                        </div>
-                    </section>
-                </article>
+                <div class="inputbox">
+                    <div class="btn_area">
+                       <p class="button02">
+                         <button type="submit"><span>ログイン</span></button>
+                       </p>
+                        <p class="button03">
+                        <button type="button" onclick="location.href='location.href='mem_pw_req.php'"><span>パスワードを忘れた方はコチラ</span></button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </form>
+                    
+        <h3 class="heading02">新規会員登録（登録無料）</h3>
+        <div class="inputbox">
+        <div class="btn_area">
+        <p class="button05">
+        <button type="button" onclick="location.href='http://member.doutor.jp/doutor/entry.php'"><span>新規会員登録</span></button>
+        </p>  
+        </div>
+        <p class="attention">
+            ※一部のカード、または退会済みの方はご登録いただけません。
+        </p>
+        </div>
+         <div id="category_area">
+            <div class="blocbody">
+                <ul id="categorytree">
+                    <li><a href="./mem_myp.php">マイドトールTOP</a><span class="toggle"></span></li>
+                    <li><a href="agreement.html">ご利用規約・同意条項</a><span class="toggle"></span></li>
+                    <li><a href="http://doutor.jp/qanda.html" target="_blank">FAQ</a><span class="toggle"></span></li>
+                </ul>
             </div>
         </div>
-    </body>
+    </div>
+                     
+ </section>
+</article>
+</div>
+<p class="pagetop"><a href="#wrapper">PAGETOP</a></p>
+    <footer id="footer">
+        <div class="inner">
+            <small>Copyright 2015 Doutor Coffee Co., Ltd. All Rights Reserved.</small>
+        </div>
+    </footer>
+ </div>
+</body>
 
 </html>
