@@ -22,7 +22,7 @@
   <td><%= exception.toString() %></td>
 </tr>
 <tr>
-  <td><strong>スタックとレース</strong></td>
+  <td><strong>スタックトレース</strong></td>
   <td>
 <%
   exception.printStackTrace(new java.io.PrintWriter(out));

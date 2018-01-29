@@ -1,0 +1,12 @@
+package cupsule;
+
+public class Person {
+	String name = null;
+	private int age = 0;
+
+	public Person(String name, int age) {
+		// TODO 自動生成されたコンストラクター・スタブ
+		this.name = name;
+		this.age = age;
+	}
+}

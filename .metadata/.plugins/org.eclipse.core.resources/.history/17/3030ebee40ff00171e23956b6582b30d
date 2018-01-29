@@ -1,0 +1,11 @@
+package human;
+
+public class Robot {
+
+	public String name = null;
+
+	public void standup() {
+		System.out.println(this.name + "が立つ");
+	}
+
+}

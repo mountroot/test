@@ -1,0 +1,12 @@
+package human;
+
+public class Person {
+
+	public static void main(String[]atgs) {
+
+	String name = null;
+
+	int age = 0;
+
+	}
+}

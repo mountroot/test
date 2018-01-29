@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+<constant value="true" name="struts.devMode"/>
+
+
+-<package name="com.internousdev.webproj5.action" extends="struts-default">
+
+
+-<action name="HelloStrutsAction" method="execute" class="com.internousdev.webproj5.action.HelloStrutsAction">
+
+<result name="success">hello.jsp</result>
+
+<result name="error">helloStrutsError.jsp</result>
+
+</action>
+
+
+-<action name="WelcomeAction" method="execute" class="com.internousdev.webproj5.action.WelcomeAction">
+
+<result name="success">welcome.jsp</result>
+
+</action>
+
+
+-<action name="LoginAction" method="execute" class="com.internousdev.webproj5.action.LoginAction">
+
+<result name="success">login.jsp</result>
+
+<result name="error">loginError.jsp</result>
+
+</action>
+
+
+-<action name="InquiryAction" method="execute" class="com.internousdev.webproj5.action.InquiryAction">
+
+<result name="success">inquiry.jsp</result>
+
+</action>
+
+
+-<action name="InquiryCompleteAction" method="execute" class="com.internousdev.webproj5.action.InquiryCompleteAction">
+
+<result name="success">inquiryComplete.jsp</result>
+
+</action>
+
+
+-<action name="TestAction" method="execute" class="com.internousdev.webproj5.action.TestAction">
+
+<result name="success">test.jsp</result>
+
+</action>
+
+</package>
+
+</struts>
