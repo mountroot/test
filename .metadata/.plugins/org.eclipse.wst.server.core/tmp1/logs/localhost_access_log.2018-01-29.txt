@@ -12,3 +12,14 @@
 127.0.0.1 - - [29/Jan/2018:11:04:36 +0900] "GET / HTTP/1.1" 404 1019
 0:0:0:0:0:0:0:1 - - [29/Jan/2018:11:04:37 +0900] "GET /Webproj4/hello.jsp HTTP/1.1" 404 1055
 0:0:0:0:0:0:0:1 - - [29/Jan/2018:11:06:03 +0900] "GET /WebProj5/ HTTP/1.1" 200 2483
+127.0.0.1 - - [29/Jan/2018:17:40:54 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:40:55 +0900] "GET /Webproj4/ HTTP/1.1" 404 1037
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:03 +0900] "GET /WebProj5/ HTTP/1.1" 200 2263
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:09 +0900] "POST /WebProj5/HelloStrutsAction.action HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:13 +0900] "POST /WebProj5/WelcomeAction.action HTTP/1.1" 200 981
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:15 +0900] "POST /WebProj5/WelcomeAction.action HTTP/1.1" 200 981
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:21 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 9494
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:50 +0900] "POST /WebProj5/TestAction.action HTTP/1.1" 200 507
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:50 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:41:59 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 1074
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:17:42:12 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 618
